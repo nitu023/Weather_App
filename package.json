@@ -4,9 +4,8 @@
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.8.2",
-    "@emotion/styled": "^11.8.1",
     "@material-ui/core": "^4.12.3",
-    "@mui/icons-material": "^5.14.3",
+    "@emotion/styled": "^11.8.1",
     "@mui/material": "^5.5.1",
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.4",
@@ -52,5 +51,9 @@
   },
   "devDependencies": {
     "@types/lodash.debounce": "^4.0.7"
+  },
+  "peerDependencies": {
+    "@babel/core": "^7.0.0",
+    "react": ">=16.8.0"
   }
 }
