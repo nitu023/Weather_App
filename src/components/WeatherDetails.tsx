@@ -44,7 +44,6 @@ console.log('nitu', sunriseTime)
 
   return (
     <Grid container spacing={2} sx={{ textAlign: 'center', marginTop: '10px' }}>
-      {/* Display max temperature */}
       <Grid item xs={12} sm={6} md={4} lg={3}>
         <Card sx={{ minWidth: 150, bgcolor: '#1E213A', color: '#fff' }}>
           <CardContent>
@@ -57,7 +56,6 @@ console.log('nitu', sunriseTime)
           </CardContent>
         </Card>
       </Grid>
-      {/* Display min temperature */}
       <Grid item xs={12} sm={6} md={4} lg={3}>
         <Card sx={{ minWidth: 150, bgcolor: '#1E213A', color: '#fff' }}>
           <CardContent>
@@ -70,7 +68,6 @@ console.log('nitu', sunriseTime)
           </CardContent>
         </Card>
       </Grid>
-      {/* Display sunrise time */}
       <Grid item xs={12} sm={6} md={4} lg={3}>
         <Card sx={{ minWidth: 150, bgcolor: '#1E213A', color: '#fff' }}>
           <CardContent>
@@ -83,7 +80,6 @@ console.log('nitu', sunriseTime)
           </CardContent>
         </Card>
       </Grid>
-      {/* Display sunset time */}
       <Grid item xs={12} sm={6} md={4} lg={3}>
         <Card sx={{ minWidth: 150, bgcolor: '#1E213A', color: '#fff' }}>
           <CardContent>
